@@ -1,0 +1,10 @@
+.settings
+.project
+.idea
+target
+*.class
+*.jar
+*.iml
+.classpath
+
+

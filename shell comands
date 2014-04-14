@@ -1,0 +1,15 @@
+works ignor warning 
+hadoop fs -moveFromLocal /home/cloudera/adev/testData /user/cloudera
+
+hadoop fs -ls /user/cloudera
+
+hadoop fs -moveToLocal /home/cloudera/adev/testDataOut /home/cloudera
+hadoop jar emr.jar org.eduonix.WordCount
+
+hadoop fs -rm -R testData
+
+
+
+
+
+
